@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Project About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css" /> </head>
+
+<body style="background-color: #439651">
+    <!--navigation-->
+    <div class="navbar navbar-inverse navbar-top">
+        <!--collapsale menu trigger-->
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Video Games <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Early Video Games</a></li>
+                        <li><a href="#">Major Steps</a></li>
+                    </ul>
+                </li>
+                <li class="active" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Consoles <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">First Consoles</a></li>
+                        <li><a href="#">Home Consoles</a></li>
+                        <li><a href="#">Portable Consoles</a></li>
+                        <li><a href="#">Consoles Wars</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Programming <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Early Programming Languages</a></li>
+                        <li><a href="#">Modern Programming Languages</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Graphics Software <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Game Engines</a></li>
+                        <li><a href="#">Model designs</a></li>
+                        <li><a href="#">Dimensions</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Industry changers <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Big Inventions</a></li>
+                        <li><a href="#">Big Inventors</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact" data-toggle="modal">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--About Section-->
+    <div class="container" style="padding-bottom: 25px; padding-left: 200px">
+        <div class="row">
+            <div class="col-md-10 container-S">
+                <!--Panel header-->
+                <div class="page-header" id="EC">
+                    <h3 class="sectitle">Early Consoles</h3><img class="col-md-3" src="assets/Arcade%20machine.jpg" width="100%" />
+                    <p>Before Home Consoles became the stanard form of gaming, Arcade machines were the most popular form of gaming. The first machine built was for a game called galaxy game in 1971, but it wasn't until 1872 when Nolan Bushnell and Ted Dabney founded Atari and created Pong. During the 70's and early 80's Arcade game became very popular the world over. The business, by the time home consoles started to appear, was wotrth $8 billion or $21.4 billion ajusted for inflation, this was not to last as home gaming kept advancing the arcade business began to fade and by 1991, revune was down in the US alone to $2.1 Billion or $3.8 billion today</p>
+                    <p>During the 90's Arcade fighter took off becuase of their simply controls allowed for co-op fighters like Mortal combat and street fighter, to be quick to learn and fun to play some what reviving the business for a short while.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-bottom: 25px; padding-left: 200px">
+        <div class="row">
+            <div class="col-md-10 container-S">
+                <!--Panel header-->
+                <div class="page-header" id="HC">
+                    <h3 class="sectitle">Home Consoles</h3><img class="col-md-3" src="assets/Playstation%204.jpg" width="100%"/>
+                    <p>In 1972 Magnavox released the Magnavox Odyssey, this was the first console that was able to connect to the TV, The first design of the Odyssey was to have a huge amount of switches to change the version of the diffrent games that the Odyssey had due to the lack of a CPU, this was scrapped and the final design had the player would switch game version by changing the cartridge. The console had a moderate release selling roughly 100,000 copies, it became more popular with the release of pong on it's system allowing the game previous available on a single machine for loads of people, was now available for everyone.</p>
+                    <p>The second generation of Consoles didn't see much improvement from the previous generation </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text">Site Built by Shaun Reeves</p> <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-success pull-right">Contact Us</a> </div>
+    </div>
+    <!--modal-->
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--Modal Form Start-->
+                <form class="form-horizontal">
+                    <div class="modal-header">
+                        <!--HEADER-->
+                        <h3>Contact Us</h3> </div>
+                    <div class="modal-body">
+                        <!--BODY-->
+                        <div class="form-group">
+                            <!--name-->
+                            <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Full Name"> </div>
+                        </div>
+                        <div class="form-group">
+                            <!--email-->
+                            <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input type="email" class="form-control" id="contact-email" placeholder="you@example.com"> </div>
+                        </div>
+                        <div class="form-group">
+                            <!--message-->
+                            <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <!--FOOTER--><a class="btn btn-success" type="submit">Submit</a> <a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a> </div>
+                </form>
+                <!--Modal Form End-->
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

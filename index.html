@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Project SR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css" /> </head>
+
+<body style="background: #8c8c8c">
+    <!--navigation-->
+    <div class="navbar navbar-inverse navbar-top">
+        <!--collapsale menu trigger-->
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Video Games <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Video%20games.html#EVG">Early Video Games</a></li>
+                        <li><a href="Video%20games.html#MS">Major Steps</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Consoles <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="consoles.html">First Consoles</a></li>
+                        <li><a href="consoles.html">Home Consoles</a></li>
+                        <li><a href="consoles.html">Portable Consoles</a></li>
+                        <li><a href="consoles.html">Consoles Wars</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Programming <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Programming%20Languages.html#EPL">Early Programming Languages</a></li>
+                        <li><a href="Programming%20Languages.html#LPL">Late Programming Languages</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Graphics Software <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Game Engines</a></li>
+                        <li><a href="#">Model designs</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Industry Changers <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Big Inventions</a></li>
+                        <li><a href="#">Big Inventors</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact" data-toggle="modal">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Header--><img class="Header" src="assets/header.png" />
+    <!--grid system-->
+    <div class="container">
+        <div class="row" style="padding-bottom: 150px">
+            <div class="col-md-4">
+                <h2 class="title">Video Games</h2>
+                <a href="Video%20games.html#EVG"><img class="links" src="assets/Early%20video%20games.jpg" /></a> <img class="links" src="assets/Major%20Steps.png" />
+                <h2 class="title">Programming Languages</h2> <img class="links" src="assets/Early%20code.png" /> <img class="links" src="assets/Late%20code.jpg" /> </div>
+            <div class="col-md-4">
+                <h2 class="title">Consoles</h2><img class="links" src="assets/Early%20consoles.jpg" /> <img class="links" src="assets/Home%20Consoles.jpg" /> <img class="links" src="assets/Portable%20console.jpg" /> <img class="links" src="assets/Console%20Wars.jpg" /> </div>
+            <div class="col-md-4">
+                <h2 class="title">Graphics Software</h2><img class="links" src="assets/graphics%20engine.jpg" /> <img class="links" src="assets/Model%20design.png" />
+                <h2 class="title">Industry Changers</h2> <img class="links" src="assets/Big%20Inventions.png" /> <img class="links" src="assets/big%20inentors.jpg" /> </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="navbar navbar-default navbar-fixed-bottom" width=100%>
+        <div class="container">
+            <p class="navbar-text">Site Built by Benedikt Thomas Eyjolfsson</p>
+            <a href="#contact" data-toggle="modal" class="pull-right"><img class="SociaMedia" src="assets/support.png" /></a>
+            <a href="https://uk.linkedin.com/" class="pull-right" target="_blank"><img class="SociaMedia" src="assets\linkedin.png" alt="" /></a>
+            <a href="https://www.youtube.com/" class="pull-right" target="_blank"><img class="SociaMedia" src="assets\youtube.png" alt="" /></a>
+            <a href="https://www.twitter.com/" class="pull-right" target="_blank"><img class="SociaMedia" src="assets\twitter.png" alt="" /></a>
+            <a href="https://plus.google.com/" class="pull-right" target="_blank"><img class="SociaMedia" src="assets/google-plus.png" alt="" /></a>
+        </div>
+    </div>
+    <!--modal-->
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--Modal Form Start-->
+                <form class="form-horizontal">
+                    <div class="modal-header">
+                        <!--HEADER-->
+                        <h3>Contact Us</h3> </div>
+                    <div class="modal-body">
+                        <!--BODY-->
+                        <div class="form-group">
+                            <!--name-->
+                            <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Full Name"> </div>
+                        </div>
+                        <div class="form-group">
+                            <!--email-->
+                            <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input type="email" class="form-control" id="contact-email" placeholder="you@example.com"> </div>
+                        </div>
+                        <div class="form-group">
+                            <!--message-->
+                            <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <!--FOOTER--><a class="btn btn-success" type="submit">Submit</a> <a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a> </div>
+                </form>
+                <!--Modal Form End-->
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

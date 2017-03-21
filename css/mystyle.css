@@ -1,0 +1,51 @@
+body {
+    overflow-x: hidden;
+    background-color: ff0000;
+}
+
+.Header {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.links {
+    width: 50%;
+}
+
+.links:hover {
+    position:relative;
+    top:80%;
+    left:0px;
+    width:90%;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.SociaMedia {
+    padding-top: 7px;
+    padding-right: 5px;
+}
+
+.title {
+    font-family: 'Audiowide', cursive;
+    font-weight: bold;
+    color: #b3ffb3;
+    width: 190px;
+}
+.background {
+    z-index: -3
+}
+
+.sectitle {
+    font-family: 'Russo One', sans-serif;
+}
+
+p {
+    font-family: 'Cousine', monospace;
+}
+
+.container-S {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
